@@ -1,0 +1,417 @@
+/* Start Box */
+.d-block {
+    display: block;
+}
+
+@media (max-width:767px) {
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+@media (max-width:767px) {
+    .hiden-mibile {
+        display: none;
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-center {
+    justify-content: center;
+
+}
+
+.space-between {
+    justify-content: space-between;
+
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.ali-c {
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+@media (max-width:767px) {
+    .f-d-col-mobile {
+        flex-direction: column;
+    }
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* End Box */
+/* Start Dimention */
+/* width */
+.w-fall {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+/* height */
+.h-full {
+    height: 100%;
+}
+
+/* End Dimention */
+/* start padding and margin */
+
+/* padding */
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+/* margin */
+.m-0 {
+    margin: 0;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-20 {
+    margin-top: 20;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+
+
+
+/* End padding and margin */
+/* start Font  */
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+
+}
+
+.fs-17 {
+    font-size: 17px;
+
+}
+
+.fs-18 {
+    font-size: 18px;
+
+}
+
+
+.fs-20 {
+    font-size: 20px;
+
+}
+
+.fs-25 {
+    font-size: 25px;
+
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+
+
+.txt-c {
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .txt-al-c-mobile {
+        text-align: center;
+    }
+}
+
+/* End Font  */
+/* start color */
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-eee {
+    color: var(--eee-color);
+}
+
+.c-seven {
+    color: var(--seven-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-blue-w {
+    color: rgb(204, 227, 255);
+}
+
+.c-green {
+    color: rgb(34, 197, 94);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.c-orang {
+    color: var(--orang-color);
+}
+
+.c-bbb {
+
+    color: #bbb;
+}
+
+.bg-white {
+    background-color: white;
+
+}
+
+
+.bg-eee {
+    background-color: var(--eee-color);
+}
+
+.bg-gray {
+    background-color: var(--gray-color);
+
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-blue-w {
+    background-color: rgb(204, 227, 255);
+}
+
+.bg-green {
+    background-color: rgb(34, 197, 94);
+}
+
+.bg-green-w {
+    background-color: rgb(211, 243, 223);
+}
+
+.bg-orang {
+    background-color: var(--orang-color);
+}
+
+.bg-orang-w {
+    background-color: rgb(253, 236, 206);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+/* End color */
+
+/* Srart Border */
+.b-none {
+    border: none;
+}
+
+.rad-6 {
+
+    border-radius: 6px;
+}
+
+.rad-10 {
+
+    border-radius: 10px;
+}
+
+.rad-8 {
+    border-radius: 8px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
+.border-2-ccc {
+    border: 2px solid #ccc;
+}
+
+/* End Border */
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+
+/* End Position */
+/* Start Component */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-shape {
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+/* End Component */
